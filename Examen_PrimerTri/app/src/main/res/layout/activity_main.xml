@@ -113,6 +113,7 @@
         android:layout_marginBottom="20sp"
         />
     <RadioGroup
+        android:id="@+id/modoJuego"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/separador"
@@ -120,11 +121,13 @@
         >
 
         <RadioButton
+            android:id="@+id/modoFacilRB"
             android:text="Tranquilito, ¿eh?"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <RadioButton
+            android:id="@+id/modoDificilRB"
             android:text="Me gustan los retos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -140,6 +143,7 @@
         android:layout_alignRight="@+id/tablero"/>
 
     <LinearLayout
+        android:id="@+id/turnoJugador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/startbtn"
@@ -165,6 +169,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/turnoAndroid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/startbtn"
